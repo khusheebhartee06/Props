@@ -1,0 +1,71 @@
+[
+    {
+        "lable":"Home",
+        "link":"/",
+        "isDropdown":false
+    },
+    {
+        "lable":"About Us",
+        "link":"/about",
+        "isDropdown":true,
+        "dropdownMenu":[
+            {
+                "lable":"Our About Us ",
+                "link":"/our_about"
+            },  
+            {
+                "lable":"My About Us ",
+                "link":"/my_about"
+            }
+        ]
+    },
+    {
+        "lable":"Contact Us",
+        "link":"/contact",
+        "isDropdown":false
+    },
+    {
+        "lable":"Service",
+        "link":"/service",
+        "isDropdown":true,
+        "dropdownMenu":[
+            {
+                "lable":"Service 1" ,
+                "link":"/service_1"
+            },
+            {
+                "lable":"Service 2" ,
+                "link":"/service_2"
+            }
+        ]
+    },
+    {
+        "lable":"Product",
+        "link":"/product",
+        "isDropdown":true,
+        "dropdownMenu":[
+            {
+                "lable":"Our Product 1 ",
+                "link":"/our_product_1"
+            },  
+            {
+                "lable":"Our Product 2",
+                "link":"/our_product_2"
+            },  
+            {
+                "lable":"Our Product 3",
+                "link":"/our_product_3"
+            }
+        ]
+    },
+    {
+        "lable":"Gallery",
+        "link":"/gallery",
+        "isDropdown":false
+    },
+    {
+        "lable":"Blog",
+        "link":"/blog",
+        "isDropdown":false
+    }
+]
